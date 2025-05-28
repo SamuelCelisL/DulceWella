@@ -17,8 +17,8 @@ function App() {
         </div>
         <div className="flex flex-col items-center" >    
           <h1 className="bg-[#ff9800] text-center font-bold text-2xl p-3 w-full">Descripcion</h1>
-            <div className="border m-8 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
-              <p className="text-justify max-w-[700px] text-lg py-5 px-3"><span className="font-bold"> Dulce Wella </span>Es una marca artesanal que transforma lo simple en irresistible. Nuestro producto estrella, <span className="font-bold"> arroz de chocolate </span> para cualquier momento del día</p>
+            <div className="bg-orange-200 hover:bg-orange-300 p-4 m-8 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+              <p className="text-justify max-w-[500px] text-lg py-5 px-3"><span className="font-bold"> Dulce Wella </span>Es una marca artesanal que transforma lo simple en irresistible. Nuestro producto estrella, <span className="font-bold"> arroz de chocolate </span> para cualquier momento del día.</p>
             </div>
         </div>
         <div className="flex flex-col items-center ">
