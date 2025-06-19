@@ -1,5 +1,5 @@
 import Carrusel from "../components/Carrusel/Carrusel"
-import Social from "../ui/Social"
+
 
 function App() {
   return (
@@ -21,23 +21,7 @@ function App() {
               <p className="text-justify max-w-[500px] text-lg py-5 px-3 font-mono"><span className="font-bold">Dulce Wella</span> es una marca artesanal que transforma lo simple en irresistible. Nuestro producto estrella, <span className="font-bold"> arroz de chocolate </span> para cualquier momento del día.</p>
             </div>
         </div>
-        <div className="flex flex-col items-center ">
-          <h1 className="bg-[#ffcc50] text-center font-bold text-2xl p-3 w-full">Video</h1>
-          <iframe 
-            className="w-full h-[500px] max-w-[700px]" 
-            src="https://www.youtube.com/embed/MPkSITpHpfQ" 
-            title="YouTube video player" 
-            // frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen>
-          </iframe>
-
-        </div>
       </main>
-      <footer className="">
-        <h1 className="bg-[#ffff89] text-center text-3xl font-bold p-3">CONTACTANOS</h1>
-        <Social />
-      </footer>
     </>
   )
 }
